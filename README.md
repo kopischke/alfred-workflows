@@ -20,7 +20,7 @@ Please use [the repository’s issues section][issues] to check for known bugs o
 
 ## License
 
-All workflows licensed under the [WTFPL][wtfpl]. See [COPYING](./COPYING) for the full license text.
+All workflows licensed under the [WTFPL][wtfpl]. See [LICENSE](./LICENSE) for the full license text.
 
 [alfred]:           http://www.alfredapp.com
 [alfred-powerpack]: http://www.alfredapp.com/powerpack/
