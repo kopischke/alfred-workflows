@@ -10,6 +10,12 @@ A straightforward port of Söderhavet’s [*Refresh Finder*][refresh-finder] uti
 
 ![Refresh Finder workflow overview](docs/refresh-finder-workflow.png)
 
+### Tag with Tagger
+
+Ali Rantakari’s [*Tagger.app*][tagger] to is a fantastic (and free) way to tag files according to the [OpenMeta standard][openmeta]. This workflow adds a hotkey to trigger it, and a file action for Alfred’s file browser (using the `tag` keyword).
+
+![Tag with Tagger screenshot of tag window](docs/tag-with-tagger-window.png)
+
 ## Installing and updating
 
 To install, download the `.alfredworkflow` files from the repo. Updates to new versions can be automated via [Alleyoop][alleyoop]: [install Alleyoop][alleyoop-download] and do `oop`.
@@ -22,10 +28,12 @@ Please use [the repository’s issues section][issues] to check for known bugs o
 
 All workflows licensed under the [WTFPL][wtfpl]. See [LICENSE](./LICENSE) for the full license text.
 
-[alfred]:           http://www.alfredapp.com
+[alfred]: http://www.alfredapp.com
 [alfred-powerpack]: http://www.alfredapp.com/powerpack/
-[alleyoop]:         http://alfred.daniel.sh
+[alleyoop]: http://alfred.daniel.sh
 [alleyoop-download]:http://alfred.daniel.sh/Workflows/Alleyoop.alfredworkflow
-[issues]:           ../../issues
-[refresh-finder]:   http://soderhavet.com/refresh/refresh-finder/
-[wtfpl]:            http://www.wtfpl.net/
+[issues]: ../../issues
+[openmeta]: http://code.google.com/p/openmeta/
+[refresh-finder]: http://soderhavet.com/refresh/refresh-finder/
+[tagger]: http://hasseg.org/tagger/
+[wtfpl]: http://www.wtfpl.net/
