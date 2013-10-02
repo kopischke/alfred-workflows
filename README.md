@@ -12,7 +12,7 @@ A straightforward port of Söderhavet’s [*Refresh Finder*][refresh-finder] uti
 
 ### Tag with Tagger
 
-Ali Rantakari’s [*Tagger.app*][tagger] to is a fantastic (and free) way to tag files according to the [OpenMeta standard][openmeta]. This workflow adds a hotkey to trigger it, and a file action for Alfred’s file browser (using the `tag` keyword).
+Ali Rantakari’s [*Tagger.app*][tagger] is a fantastic (and free) way to tag files according to the [OpenMeta standard][openmeta]. This workflow adds a hotkey to trigger it, and a file action for Alfred’s file browser (using the `tag` keyword).
 
 ![Tag with Tagger screenshot of tag window](docs/tag-with-tagger-window.png)
 
