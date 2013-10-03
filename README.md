@@ -22,6 +22,16 @@ An expanded version of [Florian Pellet’s disk space workflow](http://www.alfre
 
 ![Disk space screenshot of feedback display](docs/disk-space-feedback.png)
 
+## Google Translate
+
+A version of [Florian Pellet’s Translation workflow](http://www.alfredforum.com/topic/120-google-translate-workflow/ ) that handles international characters correctly, both as input and output, and adds a Paste in foreground application action (with the `Cmd` modifier). It’s also more easily extensible to other languages as the logic is in a central script: adding another language is a simple matter of adding a script filter running
+
+    ./translate '<language code>'  '<language name>' "{query}" 
+
+in `bash` (double quotes and escape variables need to be escaped).
+
+![Google translate screenshot of feedback display](docs/google-translate-feedback.png)
+
 ## Installing and updating
 
 To install, download the `.alfredworkflow` files from the repo. Updates to new versions can be automated via [Alleyoop][alleyoop]: [install Alleyoop][alleyoop-download] and do `oop`.
