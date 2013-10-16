@@ -16,6 +16,12 @@ Ali Rantakari’s [*Tagger.app*][tagger] is a fantastic (and free) way to tag fi
 
 ![Tag with Tagger screenshot of tag window](docs/tag-with-tagger-window.png)
 
+### Tagg’d
+
+A simple file filter companion to the tagging workflow above. Will search [OpenMeta][openmeta] tags, application specific tags (as long as they are stored as Spotlight keywords (`kmdItemKeywords` to the savvy) and Mavericks native tags.
+
+![Tag query feedback display](docs/tagged-feedback.png)
+
 ### Disk space
 
 An expanded version of [Florian Pellet’s disk space workflow](http://www.alfredforum.com/topic/678-check-available-disk-space/?hl=%2Bdisk+%2Bspace ). It has a friendlier display (including correct drive icons), handles volumes with spaces in their names, displays the correct name of the system drive and offers actions on the drives (Reveal in Finder by default, Browse in Alfred with the `fn` modifier).
