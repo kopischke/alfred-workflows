@@ -24,19 +24,19 @@ A simple file filter companion to the tagging workflow above. Will search [OpenM
 
 ### Disk space
 
-An expanded version of [Florian Pellet’s disk space workflow](http://www.alfredforum.com/topic/678-check-available-disk-space/?hl=%2Bdisk+%2Bspace ). It has a friendlier display (including correct drive icons), handles volumes with spaces in their names, displays the correct name of the system drive and offers actions on the drives (Reveal in Finder by default, Browse in Alfred with the `fn` modifier).
+An expanded version of [Florian Pellet’s disk space workflow][pellet-workflow-diskpace]. It has a friendlier display (including correct drive icons), handles volumes with spaces in their names, displays the correct name of the system drive and offers actions on the drives (Reveal in Finder by default, Browse in Alfred with the `fn` modifier).
 
-![Disk space screenshot of feedback display](docs/disk-space-feedback.png)
+![Disk space feedback display](docs/disk-space-feedback.png)
 
-## Google Translate
+### Google Translate
 
-A version of [Florian Pellet’s Translation workflow](http://www.alfredforum.com/topic/120-google-translate-workflow/ ) that handles international characters correctly, both as input and output, and adds a Paste in foreground application action (with the `Cmd` modifier). It’s also more easily extensible to other languages as the logic is in a central script: adding another language is a simple matter of adding a script filter running
+A version of [Florian Pellet’s Translation workflow][pellet-workflow-translate] that handles international characters correctly, both as input and output, treats multi-word queries as phrases instead of as separate queries, and adds a Paste in foreground application action (with the `Cmd` modifier). It’s also more easily extensible to other languages as the logic is in a central script: adding another language is a simple matter of adding a script filter running
 
     ./translate '<language code>'  '<language name>' "{query}" 
 
 in `bash` (double quotes and escape variables need to be escaped).
 
-![Google translate screenshot of feedback display](docs/google-translate-feedback.png)
+![Google translate feedback display](docs/google-translate-feedback.png)
 
 ### Now and Then (the web) 
 
@@ -70,6 +70,8 @@ All workflows licensed under the [WTFPL][wtfpl]. See [LICENSE](./LICENSE) for th
 [delish]: http://pinepointsoftware.com/delish/
 [issues]: ../../issues
 [openmeta]: http://code.google.com/p/openmeta/
+[pellet-workflow-diskpace]: http://www.alfredforum.com/topic/678-check-available-disk-space/?hl=%2Bdisk+%2Bspace 
+[pellet-workflow-translate]: http://www.alfredforum.com/topic/120-google-translate-workflow/
 [pinboard]: http://pinboard.in/
 [refresh-finder]: http://soderhavet.com/refresh/refresh-finder/
 [tagger]: http://hasseg.org/tagger/
