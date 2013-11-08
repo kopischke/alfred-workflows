@@ -50,6 +50,10 @@ A simple file filter to search all bookmark (keyword `web`) and web browsing his
 
 ![Web history query feedback display](docs/web-history-feedback.png)
 
+### Sleep Display
+
+A mini workflow that does what it says on the tin: sleeping all your displays immediately. Useful for keyboard jockeys whose Mac does not have an Eject key (you will have to set your own hotkey: Macs with an Eject key have the system shortcut *Ctrl+Shift+Eject*). Mavericks or better, as it uses a version of [Peter Bakhirev’s `displayctl`][displayctl] utility compiled for OS X 10.9.
+
 ## Installing and updating
 
 To install, download the `.alfredworkflow` files from the repo. Updates to new versions can be automated via [Alleyoop][alleyoop]: [install Alleyoop][alleyoop-download] and do `oop`.
@@ -68,6 +72,7 @@ All workflows licensed under the [WTFPL][wtfpl]. See [LICENSE](./LICENSE) for th
 [alleyoop-download]:http://alfred.daniel.sh/Workflows/Alleyoop.alfredworkflow
 [delicious]: http://www.delicious.com/
 [delish]: http://pinepointsoftware.com/delish/
+[displayctl]: https://github.com/byteclub/os-x-sleep-wake-display
 [issues]: ../../issues
 [openmeta]: http://code.google.com/p/openmeta/
 [pellet-workflow-diskpace]: http://www.alfredforum.com/topic/678-check-available-disk-space/?hl=%2Bdisk+%2Bspace 
