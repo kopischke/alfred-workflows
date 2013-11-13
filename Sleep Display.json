@@ -1,5 +1,5 @@
 {
-	"version": 1.00,
+	"version": 1.01,
 	"download_url": "https://github.com/kopischke/alfred-workflows/raw/master/Sleep%20Display.alfredworkflow",
-	"description": "Initial release."
+	"description": "Fixed hotkey bringing up Alfred."
 }
