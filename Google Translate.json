@@ -1,5 +1,5 @@
 {
-	"version": 1.00,
+	"version": 1.10,
 	"download_url": "https://github.com/kopischke/alfred-workflows/raw/master/Google%20Translate.alfredworkflow",
-	"description": "First public release."
+	"description": "Use new Google Translate web API."
 }
